@@ -1,0 +1,93 @@
+body{
+  background-color: #FFF3E2;
+}
+
+h1 {
+  color: #884A39;
+  font-size: xx-large;
+  font-family: 'Cinzel', serif;
+}
+
+img{
+  border-radius: 50%;
+}
+
+
+h2{
+  color: #C38154;
+  font-family: 'Arvo', serif;
+}
+
+p{
+  color:#C8AE7D;
+  font-family: 'Arvo', serif;
+}
+
+a{
+  color: #765827;
+  text-decoration: none;
+  font-size: larger;
+  font-family: 'Arvo', serif;
+}
+
+i{
+  color: #65451F;
+  font-size: 40px;
+}
+
+i:hover{
+  color:#C8AE7D
+}
+
+.card{
+  background-color: #F6FFDE;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 5px;
+  margin: 20px auto;
+  text-align: center;
+  width: 40vw
+}
+
+.btn-brown {
+  background-color: #F4B183;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+.btn-brown:hover{
+  background-color: #a96856;
+}
+
+
+.container {
+  background-color: #FFF3E2;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
